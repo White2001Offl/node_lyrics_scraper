@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/larryamiel/node_lyrics_scraper.git"
+    "url": "git+ssh://git@github.com:larryamiel/node_lyrics_scraper.git"
   },
   "keywords": [
     "Lyrics",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/larryamiel/node_lyrics_scraper/issues"
   },
-  "homepage": "https://github.com/larryamiel/node_lyrics_scraper#readme"
+  "homepage": "https://github.com/larryamiel/node_lyrics_scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "html2plaintext": "^2.0.1",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0"
+  }
 }
