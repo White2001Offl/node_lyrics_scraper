@@ -1,0 +1,24 @@
+{
+  "name": "node_lyrics_scraper",
+  "version": "1.0.0",
+  "description": "An AZLyrics Scraper using node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/larryamiel/node_lyrics_scraper.git"
+  },
+  "keywords": [
+    "Lyrics",
+    "Scraper",
+    "AZLyrics"
+  ],
+  "author": "Larry Amiel Tablando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larryamiel/node_lyrics_scraper/issues"
+  },
+  "homepage": "https://github.com/larryamiel/node_lyrics_scraper#readme"
+}
