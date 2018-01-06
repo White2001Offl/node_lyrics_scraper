@@ -38,8 +38,7 @@ function lyrics(url){
             $('div:not([class])').each(function(){
                 var lyrics = h2p($(this).html()); 
                 if(lyrics != ''){
-                    updateMessage(lyrics);
-                    return false;
+                    return lyrics;
                 }
             });
         }
@@ -48,11 +47,3 @@ function lyrics(url){
         }
     });
 }
-
-function updateMessage(lyrics){
-    console.log('Lyrics : \n', lyrics);
-
-    message = { 'text' : lyrics }
-}
-
-search("Shape of You");
